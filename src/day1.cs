@@ -12,7 +12,7 @@ static class Day_1
         watch.Stop();
         var elapsed = watch.Elapsed.TotalMicroseconds;
         Console.WriteLine($"Time: {elapsed}");
-        Console.WriteLine("Loop solution:");
+        Console.WriteLine("\n\rLoop solution:");
         watch.Reset();
         watch.Start();
         LoopSolution(left,right);
